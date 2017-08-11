@@ -49,6 +49,9 @@
     <Compile Include="ChessboardDynamic.cs" />
     <Compile Include="ChessboardFixedPage.cs" />
     <Compile Include="ChessboardProportional.cs" />
+    <Compile Include="ChessboardXamlPage.xaml.cs">
+      <DependentUpon>ChessboardXamlPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CodePlusXamlPage.xaml.cs">
       <DependentUpon>CodePlusXamlPage.xaml</DependentUpon>
     </Compile>
@@ -280,6 +283,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ProportionalCoordinateCalcPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChessboardXamlPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -51,7 +51,7 @@ namespace Greetings
             // MainPage = new ChessboardFixedPage();
             // MainPage = new ChessboardDynamic();
             // MainPage = new ChessboardProportional();
-            MainPage = new ProportionalCoordinateCalcPage();
+            MainPage = new ChessboardXamlPage();
         }
 
         protected override void OnStart()
