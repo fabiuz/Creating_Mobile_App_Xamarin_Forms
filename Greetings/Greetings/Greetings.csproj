@@ -35,13 +35,82 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AbsoluteDemoPage.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BitmapStreamsPage.xaml.cs">
+      <DependentUpon>BitmapStreamsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlackCatPage.cs" />
+    <Compile Include="BmpMaker.cs" />
+    <Compile Include="ButtonLambdasPage.cs" />
+    <Compile Include="ButtonLoggerPage.cs" />
+    <Compile Include="ChessboardDynamic.cs" />
+    <Compile Include="ChessboardFixedPage.cs" />
+    <Compile Include="CodePlusXamlPage.xaml.cs">
+      <DependentUpon>CodePlusXamlPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColorBlocksPage.cs" />
+    <Compile Include="ColorLoopPage.cs" />
+    <Compile Include="ColorView.xaml.cs">
+      <DependentUpon>ColorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColorViewListPage.xaml.cs">
+      <DependentUpon>ColorViewListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DiyGradientBitmap.xaml.cs">
+      <DependentUpon>DiyGradientBitmap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EstimatedFontSizePage.cs" />
+    <Compile Include="FactoryMethodDemoPage.xaml.cs">
+      <DependentUpon>FactoryMethodDemoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FitToSizeClockPage.cs" />
+    <Compile Include="FontSizesPage.cs" />
+    <Compile Include="FramedTextPage.cs" />
+    <Compile Include="GreetingsPage.cs" />
+    <Compile Include="ImageBrowserPage.xaml.cs">
+      <DependentUpon>ImageBrowserPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MonkeyTapPage.xaml.cs">
+      <DependentUpon>MonkeyTapPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NamedFontSizesPage.cs" />
+    <Compile Include="ParameteredConstructorDemo.xaml.cs">
+      <DependentUpon>ParameteredConstructorDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReflectedColorsPage.cs" />
+    <Compile Include="ResourceBitmapCodePage.cs" />
+    <Compile Include="ScaryColorList.xaml.cs">
+      <DependentUpon>ScaryColorList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimplestKeypadPage.cs" />
+    <Compile Include="SizeBoxViewPage.cs" />
+    <Compile Include="ImageResourceExtension.cs" />
+    <Compile Include="StackedBitmapPage.xaml.cs">
+      <DependentUpon>StackedBitmapPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolbarDemoPage.xaml.cs">
+      <DependentUpon>ToolbarDemoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TwoButtonsPage.cs" />
+    <Compile Include="VariableFormattedTextPage.cs" />
+    <Compile Include="VerticalOptionsDemo.cs" />
+    <Compile Include="WebBitmapCodePage.cs" />
+    <Compile Include="WebBitmapXaml.xaml.cs">
+      <DependentUpon>WebBitmapXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XamlClockPage.xaml.cs">
+      <DependentUpon>XamlClockPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="XamlKeypadPage.xaml.cs">
+      <DependentUpon>XamlKeypadPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -66,6 +135,144 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Texts\TheBlackCat.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CodePlusXamlPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ScaryColorList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ParameteredConstructorDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FactoryMethodDemoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XamlClockPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColorView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColorViewListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="XamlKeypadPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MonkeyTapPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebBitmapXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ModernUserInterface256.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StackedBitmapPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ImageBrowserPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BitmapStreamsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DiyGradientBitmap.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ToolbarDemoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\add.png" />
+    <Content Include="Images\back.png" />
+    <Content Include="Images\basecircle.png" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\check.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\download.png" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\favs.addto.png" />
+    <Content Include="Images\favs.png" />
+    <Content Include="Images\feature.alarm.png" />
+    <Content Include="Images\feature.calendar.png" />
+    <Content Include="Images\feature.camera.png" />
+    <Content Include="Images\feature.email.png" />
+    <Content Include="Images\feature.phone.png" />
+    <Content Include="Images\feature.search.png" />
+    <Content Include="Images\feature.settings.png" />
+    <Content Include="Images\feature.video.png" />
+    <Content Include="Images\folder.png" />
+    <Content Include="Images\LightIcons.dll" />
+    <Content Include="Images\like.png" />
+    <Content Include="Images\microphone.png" />
+    <Content Include="Images\minus.png" />
+    <Content Include="Images\new.png" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\overflowdots.png" />
+    <Content Include="Images\questionmark.png" />
+    <Content Include="Images\refresh.png" />
+    <Content Include="Images\save.png" />
+    <Content Include="Images\share.png" />
+    <Content Include="Images\stop.png" />
+    <Content Include="Images\sync.png" />
+    <Content Include="Images\transport.ff.png" />
+    <Content Include="Images\transport.pause.png" />
+    <Content Include="Images\transport.play.png" />
+    <Content Include="Images\transport.rew.png" />
+    <Content Include="Images\upload.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

@@ -108,6 +108,47 @@
     <None Include="Greetings.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\add.png" />
+    <Content Include="Assets\Images\back.png" />
+    <Content Include="Assets\Images\basecircle.png" />
+    <Content Include="Assets\Images\cancel.png" />
+    <Content Include="Assets\Images\check.png" />
+    <Content Include="Assets\Images\close.png" />
+    <Content Include="Assets\Images\delete.png" />
+    <Content Include="Assets\Images\download.png" />
+    <Content Include="Assets\Images\edit.png" />
+    <Content Include="Assets\Images\favs.addto.png" />
+    <Content Include="Assets\Images\favs.png" />
+    <Content Include="Assets\Images\feature.alarm.png" />
+    <Content Include="Assets\Images\feature.calendar.png" />
+    <Content Include="Assets\Images\feature.camera.png" />
+    <Content Include="Assets\Images\feature.email.png" />
+    <Content Include="Assets\Images\feature.phone.png" />
+    <Content Include="Assets\Images\feature.search.png" />
+    <Content Include="Assets\Images\feature.settings.png" />
+    <Content Include="Assets\Images\feature.video.png" />
+    <Content Include="Assets\Images\folder.png" />
+    <Content Include="Assets\Images\LightIcons.dll" />
+    <Content Include="Assets\Images\like.png" />
+    <Content Include="Assets\Images\microphone.png" />
+    <Content Include="Assets\Images\minus.png" />
+    <EmbeddedResource Include="Assets\Images\ModernUserInterface256.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Assets\Images\new.png" />
+    <Content Include="Assets\Images\next.png" />
+    <Content Include="Assets\Images\overflowdots.png" />
+    <Content Include="Assets\Images\questionmark.png" />
+    <Content Include="Assets\Images\refresh.png" />
+    <Content Include="Assets\Images\save.png" />
+    <Content Include="Assets\Images\share.png" />
+    <Content Include="Assets\Images\stop.png" />
+    <Content Include="Assets\Images\sync.png" />
+    <Content Include="Assets\Images\transport.ff.png" />
+    <Content Include="Assets\Images\transport.pause.png" />
+    <Content Include="Assets\Images\transport.play.png" />
+    <Content Include="Assets\Images\transport.rew.png" />
+    <Content Include="Assets\Images\upload.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />
