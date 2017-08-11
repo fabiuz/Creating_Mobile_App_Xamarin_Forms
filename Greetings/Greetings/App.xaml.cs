@@ -49,7 +49,8 @@ namespace Greetings
             // MainPage = new NavigationPage( new ToolbarDemoPage());
             // MainPage = new AbsoluteDemoPage();
             // MainPage = new ChessboardFixedPage();
-            MainPage = new ChessboardDynamic();
+            // MainPage = new ChessboardDynamic();
+            MainPage = new ChessboardProportional();
         }
 
         protected override void OnStart()

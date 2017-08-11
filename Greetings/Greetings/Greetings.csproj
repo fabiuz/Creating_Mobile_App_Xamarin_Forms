@@ -48,6 +48,7 @@
     <Compile Include="ButtonLoggerPage.cs" />
     <Compile Include="ChessboardDynamic.cs" />
     <Compile Include="ChessboardFixedPage.cs" />
+    <Compile Include="ChessboardProportional.cs" />
     <Compile Include="CodePlusXamlPage.xaml.cs">
       <DependentUpon>CodePlusXamlPage.xaml</DependentUpon>
     </Compile>
@@ -84,6 +85,9 @@
       <DependentUpon>ParameteredConstructorDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProportionalCoordinateCalcPage.xaml.cs">
+      <DependentUpon>ProportionalCoordinateCalcPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ReflectedColorsPage.cs" />
     <Compile Include="ResourceBitmapCodePage.cs" />
     <Compile Include="ScaryColorList.xaml.cs">
@@ -273,6 +277,12 @@
     <Content Include="Images\transport.play.png" />
     <Content Include="Images\transport.rew.png" />
     <Content Include="Images\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProportionalCoordinateCalcPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
