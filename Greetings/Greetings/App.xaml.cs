@@ -50,7 +50,8 @@ namespace Greetings
             // MainPage = new AbsoluteDemoPage();
             // MainPage = new ChessboardFixedPage();
             // MainPage = new ChessboardDynamic();
-            MainPage = new ChessboardProportional();
+            // MainPage = new ChessboardProportional();
+            MainPage = new ProportionalCoordinateCalcPage();
         }
 
         protected override void OnStart()
