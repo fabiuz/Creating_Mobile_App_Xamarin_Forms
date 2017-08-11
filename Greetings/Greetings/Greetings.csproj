@@ -96,6 +96,9 @@
     <Compile Include="ScaryColorList.xaml.cs">
       <DependentUpon>ScaryColorList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SimpleOverlay.xaml.cs">
+      <DependentUpon>SimpleOverlay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SimplestKeypadPage.cs" />
     <Compile Include="SizeBoxViewPage.cs" />
     <Compile Include="ImageResourceExtension.cs" />
@@ -289,6 +292,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ChessboardXamlPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SimpleOverlay.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

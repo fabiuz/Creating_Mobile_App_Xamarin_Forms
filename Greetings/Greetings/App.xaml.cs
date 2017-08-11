@@ -51,7 +51,8 @@ namespace Greetings
             // MainPage = new ChessboardFixedPage();
             // MainPage = new ChessboardDynamic();
             // MainPage = new ChessboardProportional();
-            MainPage = new ChessboardXamlPage();
+            // MainPage = new ChessboardXamlPage();
+            MainPage = new SimpleOverlay();
         }
 
         protected override void OnStart()
