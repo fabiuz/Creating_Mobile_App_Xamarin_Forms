@@ -52,7 +52,7 @@ namespace Greetings
             // MainPage = new ChessboardDynamic();
             // MainPage = new ChessboardProportional();
             // MainPage = new ChessboardXamlPage();
-            MainPage = new DotMatrixClockPage();
+             MainPage = new DotMatrixClockPage();
         }
 
         protected override void OnStart()
