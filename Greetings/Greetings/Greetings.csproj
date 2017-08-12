@@ -66,6 +66,9 @@
     <Compile Include="DiyGradientBitmap.xaml.cs">
       <DependentUpon>DiyGradientBitmap.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DotMatrixClockPage.xaml.cs">
+      <DependentUpon>DotMatrixClockPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EstimatedFontSizePage.cs" />
     <Compile Include="FactoryMethodDemoPage.xaml.cs">
       <DependentUpon>FactoryMethodDemoPage.xaml</DependentUpon>
@@ -298,6 +301,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SimpleOverlay.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DotMatrixClockPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
