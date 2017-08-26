@@ -39,6 +39,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BindingSourceCodePage.cs" />
+    <Compile Include="BindingSourceXaml.xaml.cs">
+      <DependentUpon>BindingSourceXaml.xaml</DependentUpon>
+    </Compile>
     <Compile Include="BitmapStreamsPage.xaml.cs">
       <DependentUpon>BitmapStreamsPage.xaml</DependentUpon>
     </Compile>
@@ -316,6 +320,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="OpacityBindingCodePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BindingSourceXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

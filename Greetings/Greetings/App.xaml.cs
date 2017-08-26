@@ -52,8 +52,10 @@ namespace Greetings
             // MainPage = new ChessboardDynamic();
             // MainPage = new ChessboardProportional();
             // MainPage = new ChessboardXamlPage();
-            //MainPage = new DotMatrixClockPage(); //Verificar depois.
-            MainPage = new OpacityBindingCodePage();
+            // MainPage = new DotMatrixClockPage(); //Verificar depois.
+            // MainPage = new OpacityBindingCodePage();
+            // MainPage = new BindingSourceCodePage();
+            MainPage = new BindingSourceXaml();
 
         }
 
