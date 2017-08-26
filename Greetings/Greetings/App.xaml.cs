@@ -55,7 +55,9 @@ namespace Greetings
             // MainPage = new DotMatrixClockPage(); //Verificar depois.
             // MainPage = new OpacityBindingCodePage();
             // MainPage = new BindingSourceCodePage();
-            MainPage = new BindingSourceXaml();
+            //MainPage = new BindingSourceXaml();
+            MainPage = new WebViewDemoPage();
+
 
         }
 
