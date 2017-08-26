@@ -11,7 +11,7 @@ namespace Greetings
     {
         public App()
         {
-            InitializeComponent();
+            // InitializeComponent();
 
             // MainPage = new Greetings.MainPage();
             // MainPage = new GreetingsPage();
@@ -52,7 +52,9 @@ namespace Greetings
             // MainPage = new ChessboardDynamic();
             // MainPage = new ChessboardProportional();
             // MainPage = new ChessboardXamlPage();
-             MainPage = new DotMatrixClockPage();
+            //MainPage = new DotMatrixClockPage(); //Verificar depois.
+            MainPage = new OpacityBindingCodePage();
+
         }
 
         protected override void OnStart()

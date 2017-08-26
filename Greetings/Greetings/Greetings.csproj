@@ -87,6 +87,9 @@
       <DependentUpon>MonkeyTapPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="NamedFontSizesPage.cs" />
+    <Compile Include="OpacityBindingCodePage.xaml.cs">
+      <DependentUpon>OpacityBindingCodePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ParameteredConstructorDemo.xaml.cs">
       <DependentUpon>ParameteredConstructorDemo.xaml</DependentUpon>
     </Compile>
@@ -307,6 +310,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DotMatrixClockPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OpacityBindingCodePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
